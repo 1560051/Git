@@ -32,6 +32,7 @@ Branche
 - Để tạo một Branch ta dùng: `git checkout -b <branchname>`
 - Để chuyển sang một branch khác ta dùng: `git checkout <branchname>`
 - Xóa branch:`git branch -d <branchname>`
+- merge branch: `git merge <branchname>`
 ### Branche master
 - Khi tiến hành commit lần đầu trong repository thì Git sẽ tạo ra một branch có tên là master. Vì thế những lần commit sau sẽ được thêm vào branch master cho đến khi chuyển đổi branch.
 
@@ -45,13 +46,14 @@ Câu lệnh: `git commit -m "message"`
 Git Rebase
 -------
 - Git Rebase là một chức năng được dùng khi gắn nhánh đã hoàn thành công việc vào nhánh gốc, chính vì thế sẽ có đặc trưng là dễ nhìn hơn sau khi xác nhận commit.
+- Câu lệnh: `git rebase <branche>`
 
-Các câu lệnh git
+Các câu lệnh git khác
 ----------------
 - `git status`: Để xem những file nào đã bị thay đổi
 - `git push`: Những thay đổi ở phía local và được đẩy lên remote
 - `git pull`:Fetch và Merge những thay đổi trên remote để cập nhật local repository đồng thời sẽ báo những file bị conflict(nếu có)
-- `git add <filename>`: 
+- `git add <filename>`: Thêm 1 hoặc nhiều file vào staging (index)
 ```
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
