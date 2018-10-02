@@ -59,5 +59,5 @@ git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
 ```
 - `global` được sử dụng để áp dụng cho tất cả các projects. Nếu bạn ko sử dụng `--global` thì settings sẽ chỉ dùng cho riêng project đó.
-
+-`git commit --amend`: Để ghi đè lại commit mới nhất Nếu bạn chỉ muốn add thêm file mà không muốn sửa commit message thi có thể dùng option `--no-edit`
 - `git blame`: Để xác định ai là người gây ra lỗi
